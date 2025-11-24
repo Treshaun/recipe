@@ -25,7 +25,7 @@ public class ServerPublisher {
 
     public static void main(String[] args) {
         start();
-//
+
         Runtime.getRuntime().addShutdownHook(new Thread(ServerPublisher::stop));
     }
 }
